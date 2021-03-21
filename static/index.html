@@ -1,0 +1,423 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>teapot</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <meta name="theme-color" content="#fafafa">
+  <style>
+    body {
+        font-family: Monaco, monospace;
+        background: #000;
+        color: #0f0;
+    }
+    a {
+        font-size: xx-large;
+        color: #00f;
+        text-decoration: none;
+    }
+    a:visited {
+        color: #00f;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    @media all and (max-width: 500px) {
+        body {
+            font-size: 6px;
+        }
+        a {
+            font-size: 24px;
+        }
+    }
+    @media all and (min-width: 500px) and (max-width: 800px) {
+        body {
+            font-size: 8px;
+        }
+    }
+    @media all and (min-width: 800px) and (max-width: 1000px) {
+        body {
+            font-size: medium;
+        }
+    }
+    @media all and (min-width: 1000px) and (max-width: 1500px) {
+        body {
+            font-size: large;
+        }
+        a {
+            font-size: 40px;
+        }
+    }
+    @media all and (min-width: 1500px){
+        body {
+            font-size: xx-large;
+        }
+        a {
+            font-size: 72px;
+        }
+    }
+    .headline {
+        display: flex;
+        flex-direction: row;
+    }
+    .headline > pre {
+        margin: 0 1em;
+    }
+    .headline-0-t {
+        animation: anim-headline-0-t 8s linear infinite;
+    }
+    .headline-1-e {
+        animation: anim-headline-1-e 8s linear infinite;
+    }
+    .headline-2-a {
+        animation: anim-headline-2-a 8s linear infinite;
+    }
+    .headline-3-p {
+        animation: anim-headline-3-p 8s linear infinite;
+    }
+    .headline-4-o {
+        animation: anim-headline-4-o 8s linear infinite;
+    }
+    .headline-5-t {
+        animation: anim-headline-5-t 8s linear infinite;
+    }
+    @keyframes anim-headline-0-t {
+        0% {
+            color: #0f0;
+        }
+        8.33% {
+            color: #00f;
+        }
+        16.33% {
+            color: #00f;
+        }
+        25% {
+            color: #00f;
+        }
+        33.33% {
+            color: #00f;
+        }
+        41.66% {
+            color: #00f;
+        }
+        50% {
+            color: #00f;
+        }
+        58.33% {
+            color: #0f0;
+        }
+        66.33% {
+            color: #0f0;
+        }
+        75% {
+            color: #0f0;
+        }
+        83.33% {
+            color: #0f0;
+        }
+        91.66% {
+            color: #0f0;
+        }
+    }
+    @keyframes anim-headline-1-e {
+        0% {
+            color: #0f0;
+        }
+        8.33% {
+            color: #0f0;
+        }
+        16.33% {
+            color: #00f;
+        }
+        25% {
+            color: #00f;
+        }
+        33.33% {
+            color: #00f;
+        }
+        41.66% {
+            color: #00f;
+        }
+        50% {
+            color: #00f;
+        }
+        58.33% {
+            color: #00f;
+        }
+        66.33% {
+            color: #0f0;
+        }
+        75% {
+            color: #0f0;
+        }
+        83.33% {
+            color: #0f0;
+        }
+        91.66% {
+            color: #0f0;
+        }
+    }
+    @keyframes anim-headline-2-a {
+        0% {
+            color: #0f0;
+        }
+        8.33% {
+            color: #0f0;
+        }
+        16.33% {
+            color: #0f0;
+        }
+        25% {
+            color: #00f;
+        }
+        33.33% {
+            color: #00f;
+        }
+        41.66% {
+            color: #00f;
+        }
+        50% {
+            color: #00f;
+        }
+        58.33% {
+            color: #00f;
+        }
+        66.33% {
+            color: #00f;
+        }
+        75% {
+            color: #0f0;
+        }
+        83.33% {
+            color: #0f0;
+        }
+        91.66% {
+            color: #0f0;
+        }
+    }
+    @keyframes anim-headline-3-p {
+        0% {
+            color: #0f0;
+        }
+        8.33% {
+            color: #0f0;
+        }
+        16.33% {
+            color: #0f0;
+        }
+        25% {
+            color: #0f0;
+        }
+        33.33% {
+            color: #00f;
+        }
+        41.66% {
+            color: #00f;
+        }
+        50% {
+            color: #00f;
+        }
+        58.33% {
+            color: #00f;
+        }
+        66.33% {
+            color: #00f;
+        }
+        75% {
+            color: #00f;
+        }
+        83.33% {
+            color: #0f0;
+        }
+        91.66% {
+            color: #0f0;
+        }
+    }
+    @keyframes anim-headline-4-o {
+        0% {
+            color: #0f0;
+        }
+        8.33% {
+            color: #0f0;
+        }
+        16.33% {
+            color: #0f0;
+        }
+        25% {
+            color: #0f0;
+        }
+        33.33% {
+            color: #0f0;
+        }
+        41.66% {
+            color: #00f;
+        }
+        50% {
+            color: #00f;
+        }
+        58.33% {
+            color: #00f;
+        }
+        66.33% {
+            color: #00f;
+        }
+        75% {
+            color: #00f;
+        }
+        83.33% {
+            color: #00f;
+        }
+        91.66% {
+            color: #0f0;
+        }
+    }
+    @keyframes anim-headline-5-t {
+        0% {
+            color: #0f0;
+        }
+        8.33% {
+            color: #0f0;
+        }
+        16.33% {
+            color: #0f0;
+        }
+        25% {
+            color: #0f0;
+        }
+        33.33% {
+            color: #0f0;
+        }
+        41.66% {
+            color: #0f0;
+        }
+        50% {
+            color: #00f;
+        }
+        58.33% {
+            color: #00f;
+        }
+        66.33% {
+            color: #00f;
+        }
+        75% {
+            color: #00f;
+        }
+        83.33% {
+            color: #00f;
+        }
+        91.66% {
+            color: #00f;
+        }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content">
+    <div class="headline">
+      <pre class="headline-0-t">
+  ,d
+  88
+MM88MMM
+  88
+  88
+  88,
+  "Y888
+
+
+      </pre>
+      <pre class="headline-1-e">
+
+
+ ,adPPYba,
+a8P_____88
+8PP"""""""
+"8b,   ,aa
+ `"Ybbd8"'
+
+
+      </pre>
+      <pre class="headline-2-a">
+
+
+ ,adPPYYba,
+ ""     `Y8
+ ,adPPPPP88
+ 88,    ,88
+ `"8bbdP"Y8
+
+
+      </pre>
+      <pre class="headline-3-p">
+
+
+8b,dPPYba,
+88P'    "8a
+88       d8
+88b,   ,a8"
+88`YbbdP"'
+88
+88
+      </pre>
+      <pre class="headline-4-o">
+
+
+ ,adPPYba,
+a8"     "8a
+8b       d8
+"8a,   ,a8"
+ `"YbbdP"'
+
+
+      </pre>
+      <pre class="headline-5-t">
+  ,d
+  88
+MM88MMM
+  88
+  88
+  88,
+  "Y888
+
+
+      </pre>
+    </div>
+    <pre>
+                                                /
+                                               /
+                               xxX###xx       /
+                                ::XXX        /
+                         xxXX::::::###XXXXXx/#####
+                    :::XXXXX::::::XXXXXXXXX/    ####
+         xXXX//::::::://///////:::::::::::/#####    #         ##########
+      XXXXXX//:::::://///xXXXXXXXXXXXXXXX/#    #######      ###   ###
+     XXXX        :://///XXXXXXXXX######X/#######      #   ###    #
+     XXXX        ::////XXXXXXXXX#######/ #     #      ####   #  #
+      XXXX/:     ::////XXXXXXXXXX#####/  #     #########      ##
+       ""XX//::::::////XXXXXXXXXXXXXX/###########     #       #
+           "::::::::////XXXXXXXXXXXX/    #     #     #      ##
+                 ::::////XXXXXXXXXX/##################   ###
+                     ::::://XXXXXX/#    #     #   #######
+                         ::::::::/################
+                                /
+                               /
+                              /
+    </pre>
+    <a href="/airplay/restart">[restart airplay]</a>
+  </div>
+</body>
+
+</html>
